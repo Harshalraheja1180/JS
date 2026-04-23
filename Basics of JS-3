@@ -86,3 +86,34 @@ for(const key in person){
   console.log(key,":", person[key])
 } 
 //for each loop 
+//for each loop 
+const programming=["java","swift","c++","C#"]
+programming.forEach(function(val){
+  console.log(val)
+})
+//same but by Arrow function 
+programming.forEach(  (val)=>{
+  console.log(val)
+})
+//PrintMe function
+function printMe(item){
+  console.log(item)
+}
+programming.forEach(printMe)
+
+
+
+//For Each other features 
+programming.forEach((item,index,arr)=>{
+  console.log(item,index,arr)
+})
+//Using ForEach in Array as an object.
+const users = [
+  { id: 1, name: "Alice", isAdmin: true },
+  { id: 2, name: "Bob", isAdmin: false },
+  { id: 3, name: "Charlie", isAdmin: false }
+];
+users.forEach(function(val){
+  console.log(val)
+  console.log("Name is:", val.name)
+})
