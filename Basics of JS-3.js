@@ -1,4 +1,4 @@
-(22-04-2026)
+(22-4-2026)
 //Loops
 for(i=0;i<=10;i++){
   if(i==7){
@@ -28,7 +28,7 @@ for(i=1;i<8;i++){
 }
 
 
-23-04-2026
+//23-04-2026
 //While Loop
 
 let index=0
@@ -87,6 +87,7 @@ for(const key in person){
 } 
 //for each loop 
 //for each loop 
+console.log("For Each Loop")
 const programming=["java","swift","c++","C#"]
 programming.forEach(function(val){
   console.log(val)
@@ -96,6 +97,7 @@ programming.forEach(  (val)=>{
   console.log(val)
 })
 //PrintMe function
+console.log("Prime Function")
 function printMe(item){
   console.log(item)
 }
@@ -104,6 +106,7 @@ programming.forEach(printMe)
 
 
 //For Each other features 
+console.log("For Each other features ")
 programming.forEach((item,index,arr)=>{
   console.log(item,index,arr)
 })
