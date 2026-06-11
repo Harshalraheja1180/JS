@@ -1,4 +1,4 @@
-JavaScripit  (11-03-26)
+//JavaScripit  (11-03-26)
 
 console.log("Hello, World!");
 let accountState;
@@ -110,7 +110,7 @@ console.log(date.toLocaleString())
 console.log(date.toLocaleTimeString())
 console.log(date.toTimeString())
 console.log(typeof date)
-let myDate= new Date(2006,01,11)
+let myDate= new Date(2006,2,11)
 console.log(myDate.toDateString())
 console.log(myDate.toString())
 let TS= Date.now()
@@ -119,7 +119,7 @@ console.log(myDate.getTime())//1 Jan se new date tak ka time jo upar user ne diy
 const newDate= new Date()
 console.log(newDate.getDay())
 
-JavaScript (12-03-26)
+//JavaScript (12-03-26)
 
 Array1= [1,2,3,4,5]
 console.log("A", Array1)
